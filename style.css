@@ -1,0 +1,1922 @@
+body {
+    
+    margin: 0 auto;
+    width:100%;
+    
+}
+
+a {text-decoration: none;}
+
+.menuecontainer {
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 8px 5px -2px gray;
+}
+
+.menuebar {
+    width:1280px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.logo {
+    height: 100px;
+    float:left
+    padding: 5px 30px;
+}
+
+.menuebar a {
+font-family:sans-serif;
+font-size: 25px;
+color: #979797;
+padding: 33px 30px;
+margin: 0 auto;
+float: right;
+transition: 0.3s ease-in;
+}
+
+.menuebar a:hover {
+    color: #0067a8;
+}
+
+.banner{
+    background-image: url(./Images/Collegeblock1.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.Ingenieurbürobanner{
+z-index: -1;
+}
+
+.ueberschrift{
+font-family: sans-serif;
+text-align: center;
+position: relative;
+font-size: 30px;
+top: -50px;
+color: #0067a8;
+background-color: white;
+border: 4px solid #0067a8;
+padding: 7px 0;
+
+}
+
+.slogan {
+    padding-top: 0px;
+}
+
+.center {
+    text-align: center;
+}
+
+.blauerHintergrund{
+    bottom: 68px;
+    width: 100%;
+    height: 430px;
+    background-color: #0067a8; 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 65px;
+}
+
+
+.layout {
+    width: 1280px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+.icons {
+    position: relative;
+    top: 20px;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    
+}
+
+.icons img {
+    height: 90px;
+    width: auto;
+}
+
+.icons h2 {
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.icons h3 {
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.icons h4 {
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.icons p {
+    margin-top: -12px;
+   margin-bottom: 25px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.icons a {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #0067a8;
+    padding: 5px 10px;
+    background-color: white;
+    
+}
+
+#Test p{
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+.banner2{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 201px; 
+    background-image:url(./Images/Collegeblock2.png);   
+    background-position: center;
+    background-size: cover; 
+}
+
+.Linie{
+    background-color: #0067a8;
+    height: 15px;
+    width: 100%;
+}
+
+.container{
+    font-family: sans-serif;
+    max-width: 1280px;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 28px;
+    margin-left: -15px;
+}
+
+.container div p1{
+    font-size: 60px;
+    color: #2177ac;
+    font-weight:530;
+    margin: 0;    
+}
+
+.container div p2{
+    font-size: 45px;
+    color: #676d70;
+    font-weight: 500;    
+}
+
+.bluebackground {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    background-color: #0067a8;
+    width: 100%;
+    height: 180px;
+}
+
+.bluebackground div{
+    width: 1320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 14px;
+    margin-left: 0;
+}
+
+
+.bluebackground div p{
+    margin-top: 15px;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    font-family:sans-serif;
+}
+
+.bluebackground div p1{
+    margin-top: 15px;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    font-family:sans-serif;
+}
+
+#sachgebiete{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./Images/planning-3536753_1920.jpg);
+    background-position: center;
+    background-size: cover; 
+    height: 210px;
+}
+
+#sachgebiete p{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+    font-weight: 550;
+    font-family:sans-serif;
+}
+
+#sachgebiete p1{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    font-weight: 550;
+    font-family:sans-serif;
+}
+
+#bauweisen {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    background-color: #0067a8;
+    width: 100%;
+    height: 180px;
+}
+
+#bauweisen div{
+    width: 1320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 14px;
+    margin-left: 0;
+}
+
+
+#bauweisen div p{
+    margin-top: 15px;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    font-family:sans-serif;
+}
+
+#bauweisen div p1{
+    margin-top: 15px;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    font-family:sans-serif;
+}
+
+#modernetechnik{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(235, 235, 235);
+    height: 240px;
+}
+
+#modernetechnik div{
+    width: 1320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+}
+
+#modernetechnik div p1 {
+    text-align: center;
+    color: black;
+    font-size: 29px;
+    margin: 10px;
+    font-family:sans-serif;
+}
+
+#modernetechnik div p{
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    margin: 10px;
+    font-family:sans-serif;
+}
+
+#leistungen{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./Images/measure.png);
+    background-position: right;
+    background-size: cover; 
+    height: 390px;
+}
+
+#leistungen div p1{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 35px;
+    font-weight: 540;
+    margin: 10px;
+    font-family:sans-serif;
+}
+
+#leistungen p{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+    font-weight: 500;
+    font-family:sans-serif;
+}
+
+#ansprechpartner {
+    margin-top: 40px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+    font-family: sans-serif;
+}
+
+#ansprechpartner div{
+    width: 1280px;
+}
+
+#ansprechpartner div div {
+
+}
+
+#ansprechpartner div div h5 {
+    font-size: 25px;
+    font-weight: 550;
+}
+
+#ansprechpartner div div h6 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#ansprechpartner div div p{
+
+}
+
+.durchwahlcontainer {
+    display: flex;
+
+}
+
+.durchwahlcontainerlinks{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+}
+
+.durchwahlcontainerrechts{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+}
+
+.blue{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    width: 100%;
+    background-color: #0067a8;
+    height: 180px;
+}
+
+.blue div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1280px;
+}
+
+.blue div img {
+    margin-top: 13px;
+    height: 120px;
+    width: auto;
+}
+
+
+.grey {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+    height: 45px;
+}
+
+.grey div {
+    width: 1280px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.blue p{
+    color: white;
+}
+
+.grey a{
+    color: black;
+    margin: 5px;
+}
+
+.footer {
+    margin-top: 45px;
+}
+
+.kontakt {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    width:100%;
+    height: 290px;
+    background-color: rgb(235, 235, 235);
+}
+
+.kontakt div {
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.kontakt div h6{
+    font-size: xx-large;
+    margin: 10px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.kontakt div p{
+    margin-top: 15px;
+    font-size: larger;
+    margin-bottom: 20px;
+}
+
+.stellenangebote{
+    color: white;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    width: 100%;
+    height: 180px;
+    background-color: #0067a8;
+}
+
+
+.stellenangebote div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 1280px;
+}
+
+.stellenangebote div p {
+    text-align: center;
+}
+
+.stellenangebote div h5 {
+    font-size: 40px;
+    margin: 0;
+}
+
+
+.stellenangebote1{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 950px;
+    background-color: rgb(235, 235, 235);
+}
+
+.stellenangebote1 div {
+    display: flex;
+    width: 1280px;
+    flex-direction: column;    
+}
+
+.unten {
+    display: flex;
+    flex: 3;
+    width: 1280px;
+    margin-bottom: 15px;
+}
+
+.oben {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-bottom: -60px;
+    margin-top: 15px;
+}
+
+
+.left{
+        
+}
+
+.stellenangebote1 h6 {
+    color: #0067a8;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.stellenangebote1 h5 {
+    color: #0067a8;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.stellenangebote1 p{
+    font-size: 18px;
+}
+
+.Kooperationspartner {
+    margin-top: 40px;
+    font-family: sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Kooperationspartner div{
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+
+.Kooperationspartner h5 {
+    color: #0067a8;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.Kooperationspartner p{
+    font-size: 18px;
+}
+
+.zurstellenanzeige {
+    margin-top: -20px;
+    background-color: rgb(235, 235, 235);
+    font-family: sans-serif;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.zurstellenanzeige h5 {
+    color: #0067a8;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.zurstellenanzeige p{
+    font-size: 18px;
+}
+
+.zurstellenanzeige a {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    padding: 5px 10px;
+    background-color: white;
+    
+}
+
+.zusammenfassung {
+    font-family: sans-serif;
+    width: 100%;
+    background-color: #0067a8;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: -40px;
+}
+
+.zusammenfassung h5{
+    position: relative;
+    top: -30px;
+    color: white;
+    font-size: 24px;
+    margin: 20px;
+}
+
+.zusammenfassung h6{
+    position: relative;
+    top: -30px;
+    color: white;
+    font-weight: lighter;
+    font-size: 17px;
+    margin: 20px;
+}
+
+
+#verschieben {
+    margin-top: -68px;
+}
+
+.ImpressumundDatenschutzerklärung {
+    display: flex;
+    background-color: #0067a8;
+    justify-content: center;
+    
+}
+
+.mid {
+    font-family: sans-serif;
+    width: 640px;
+    display: flex;
+    background-color: rgb(235, 235, 235);
+    flex-direction: column;
+    padding: 0px 20px;
+}
+
+.mid p {
+    line-height: 170%;
+    letter-spacing: 1px;
+}
+
+.mid h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.blauerbalken{
+    background-color: #0067a8;
+    width: 100%;
+    height: 60px;
+}
+
+.blauerbalken1{
+    background-color: #0067a8;
+    width: 100%;
+    height: 150px;
+}
+
+@media (min-width: 769px) and (max-width:1280px) {
+	
+	body {
+    
+    margin: 0 auto;
+    width:100%;
+    
+}
+
+a {text-decoration: none;}
+
+.menuecontainer {
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 8px 5px -2px gray;
+}
+
+.menuebar {
+    width:1280px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.logo {
+    height: 100px;
+    float:left
+    padding: 5px 30px;
+}
+
+.menuebar a {
+font-family:sans-serif;
+font-size: 25px;
+color: #979797;
+padding: 33px 30px;
+margin: 0 auto;
+float: right;
+transition: 0.3s ease-in;
+}
+
+.menuebar a:hover {
+    color: #0067a8;
+}
+
+.banner{
+    background-image: url(./Images/Collegeblock1.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.Ingenieurbürobanner{
+z-index: -1;
+}
+
+.ueberschrift{
+font-family: sans-serif;
+text-align: center;
+position: relative;
+font-size: 30px;
+top: -50px;
+color: #0067a8;
+background-color: white;
+border: 4px solid #0067a8;
+padding: 7px 0;
+
+}
+
+.slogan {
+    padding-top: 60px;
+}
+
+.center {
+    text-align: center;
+}
+
+.blauerHintergrund{
+    bottom: 68px;
+    width: 100%;
+    height: 430px;
+    background-color: #0067a8; 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 65px;
+}
+
+
+.layout {
+    width: 1280px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+.icons {
+    position: relative;
+    top: 20px;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    
+}
+
+.icons img {
+    height: 90px;
+    width: auto;
+}
+
+.icons h2 {
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.icons h3 {
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.icons h4 {
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.icons p {
+    margin-top: -12px;
+   margin-bottom: 25px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.icons a {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #0067a8;
+    padding: 5px 10px;
+    background-color: white;
+    
+}
+
+#Test p{
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+.banner2{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 201px; 
+    background-image:url(./Images/Collegeblock2.png);   
+    background-position: center;
+    background-size: cover; 
+}
+
+.Linie{
+    background-color: #0067a8;
+    height: 15px;
+    width: 100%;
+}
+
+.container{
+    font-family: sans-serif;
+    max-width: 1280px;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 28px;
+    margin-left: -15px;
+}
+
+.container div p1{
+    font-size: 60px;
+    color: #2177ac;
+    font-weight:530;
+    margin: 0;    
+}
+
+.container div p2{
+    font-size: 45px;
+    color: #676d70;
+    font-weight: 500;    
+}
+
+.bluebackground {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    background-color: #0067a8;
+    width: 100%;
+    height: 180px;
+}
+
+.bluebackground div{
+    width: 1320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 14px;
+    margin-left: 0;
+}
+
+
+.bluebackground div p{
+    margin-top: 15px;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    font-family:sans-serif;
+}
+
+.bluebackground div p1{
+    margin-top: 15px;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    font-family:sans-serif;
+}
+
+#sachgebiete{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./Images/planning-3536753_1920.jpg);
+    background-position: center;
+    background-size: cover; 
+    height: 210px;
+}
+
+#sachgebiete p{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+    font-weight: 550;
+    font-family:sans-serif;
+}
+
+#sachgebiete p1{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    font-weight: 550;
+    font-family:sans-serif;
+}
+
+#bauweisen {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    background-color: #0067a8;
+    width: 100%;
+    height: 180px;
+}
+
+#bauweisen div{
+    width: 1320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 14px;
+    margin-left: 0;
+}
+
+
+#bauweisen div p{
+    margin-top: 15px;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    font-family:sans-serif;
+}
+
+#bauweisen div p1{
+    margin-top: 15px;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    font-family:sans-serif;
+}
+
+#modernetechnik{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(235, 235, 235);
+    height: 240px;
+}
+
+#modernetechnik div{
+    width: 1320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+}
+
+#modernetechnik div p1 {
+    text-align: center;
+    color: black;
+    font-size: 29px;
+    margin: 10px;
+    font-family:sans-serif;
+}
+
+#modernetechnik div p{
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    margin: 10px;
+    font-family:sans-serif;
+}
+
+#leistungen{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./Images/measure.png);
+    background-position: right;
+    background-size: cover; 
+    height: 390px;
+}
+
+#leistungen div p1{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 35px;
+    font-weight: 540;
+    margin: 10px;
+    font-family:sans-serif;
+}
+
+#leistungen p{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+    font-weight: 500;
+    font-family:sans-serif;
+}
+
+#ansprechpartner {
+    margin-top: 40px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+    font-family: sans-serif;
+}
+
+#ansprechpartner div{
+    width: 1280px;
+}
+
+#ansprechpartner div div {
+
+}
+
+#ansprechpartner div div h5 {
+    font-size: 25px;
+    font-weight: 550;
+}
+
+#ansprechpartner div div h6 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#ansprechpartner div div p{
+
+}
+
+.durchwahlcontainer {
+    display: flex;
+
+}
+
+.durchwahlcontainerlinks{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+}
+
+.durchwahlcontainerrechts{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+}
+
+.blue{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    width: 100%;
+    background-color: #0067a8;
+    height: 180px;
+}
+
+.blue div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1280px;
+}
+
+.blue div img {
+    margin-top: 13px;
+    height: 120px;
+    width: auto;
+}
+
+
+.grey {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+    height: 45px;
+}
+
+.grey div {
+    width: 1280px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.blue p{
+    color: white;
+}
+
+.grey a{
+    color: black;
+    margin: 5px;
+}
+
+.footer {
+    margin-top: 45px;
+}
+
+.kontakt {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    width:100%;
+    height: 290px;
+    background-color: rgb(235, 235, 235);
+}
+
+.kontakt div {
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.kontakt div h6{
+    font-size: xx-large;
+    margin: 10px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.kontakt div p{
+    margin-top: 15px;
+    font-size: larger;
+    margin-bottom: 20px;
+}
+
+.stellenangebote{
+    color: white;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    width: 100%;
+    height: 180px;
+    background-color: #0067a8;
+}
+
+
+.stellenangebote div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 1280px;
+}
+
+.stellenangebote div p {
+    text-align: center;
+}
+
+.stellenangebote div h5 {
+    font-size: 40px;
+    margin: 0;
+}
+
+
+.stellenangebote1{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 950px;
+    background-color: rgb(235, 235, 235);
+}
+
+.stellenangebote1 div {
+    display: flex;
+    width: 1280px;
+    flex-direction: column;    
+}
+
+.unten {
+    display: flex;
+    flex: 3;
+    width: 1280px;
+    margin-bottom: 15px;
+}
+
+.oben {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-bottom: -60px;
+    margin-top: 15px;
+}
+
+
+.left{
+        
+}
+
+.stellenangebote1 h6 {
+    color: #0067a8;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.stellenangebote1 h5 {
+    color: #0067a8;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.stellenangebote1 p{
+    font-size: 18px;
+}
+
+.Kooperationspartner {
+    margin-top: 40px;
+    font-family: sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Kooperationspartner div{
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+
+.Kooperationspartner h5 {
+    color: #0067a8;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.Kooperationspartner p{
+    font-size: 18px;
+}
+
+.zurstellenanzeige {
+    margin-top: -20px;
+    background-color: rgb(235, 235, 235);
+    font-family: sans-serif;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.zurstellenanzeige h5 {
+    color: #0067a8;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.zurstellenanzeige p{
+    font-size: 18px;
+}
+
+.zurstellenanzeige a {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    padding: 5px 10px;
+    background-color: white;
+    
+}
+
+.zusammenfassung {
+    font-family: sans-serif;
+    width: 100%;
+    background-color: #0067a8;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: -40px;
+}
+
+.zusammenfassung h5{
+    position: relative;
+    top: -30px;
+    color: white;
+    font-size: 24px;
+    margin: 20px;
+}
+
+.zusammenfassung h6{
+    position: relative;
+    top: -30px;
+    color: white;
+    font-weight: lighter;
+    font-size: 17px;
+    margin: 20px;
+}
+
+
+#verschieben {
+    margin-top: -68px;
+}
+
+.ImpressumundDatenschutzerklärung {
+    display: flex;
+    background-color: #0067a8;
+    justify-content: center;
+    
+}
+
+.mid {
+    font-family: sans-serif;
+    width: 640px;
+    display: flex;
+    background-color: rgb(235, 235, 235);
+    flex-direction: column;
+    padding: 0px 20px;
+}
+
+.mid p {
+    line-height: 170%;
+    letter-spacing: 1px;
+}
+
+.mid h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.blauerbalken{
+    background-color: #0067a8;
+    width: 100%;
+    height: 60px;
+}
+
+.blauerbalken1{
+    background-color: #0067a8;
+    width: 100%;
+    height: 150px;
+}
+	
+.navbar-menu{
+	display:none;
+}	
+	
+	
+}
+
+
+
+  @media (max-width: 768px) {
+	  
+
+/* Hamburger Menu */
+
+
+ .menu {
+	position: fixed;
+	top: 20px;
+	right: 8px;
+	background-color: #262626;
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
+	transition: 0.3s;
+	z-index: 9999;
+}
+.menu span {
+	position: absolute;
+	height: 3px;
+	width: 25px;
+	background-color: #fff;
+   	top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 0.3s;
+}
+.menu span:before {
+	content: '';
+	position: absolute;
+	top: -8px;
+	background-color: #fff;
+	height: 3px;
+	width: 25px;
+	transition: 0.3s;
+}
+.menu span:after {
+	content: '';
+	position: absolute;
+	top: 8px;
+	background-color: #fff;
+	height: 3px;
+	width: 25px;
+	transition: 0.3s;
+}
+.menu.active span { background-color: transparent; }
+.menu.active span:before { transform: rotate(45deg);top: 0; }
+.menu.active span:after { transform: rotate(-45deg);top: 0; }
+
+/* End */
+
+/* Navigationbar */
+
+.navbar-menu {
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    transform: translateX(-100%);
+    transition: 0.5s;
+}
+.navbar-menu.active { transform: translateX(0);transition: 0.5s; }
+.navbar-menu .menu-listing { padding: 0;
+	margin: 0;
+	text-align: right;
+	height: 100vh;
+    padding-top: 145px!important; }
+.menu-listing li { display: inline-block; }
+.menu-listing li a {
+	background-color: #fff;
+    font-family: sans-serif;
+	color: rgb(151, 151, 151);
+	display: block;
+	font-size: 20px;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 20px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	transition: 0.5s;
+}
+.menu-listing li a:hover { background-color: #262626;color: #fff;transition: 0.5s; }
+
+/* End */
+
+/* Banner Section */
+
+
+.banner-heads { display:none; }
+
+
+/* End */
+
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	body{
+		width:100%;
+	}  
+	
+		.logo {
+		float:left;
+		width: 200px;
+		height: auto;
+		padding: 16px;
+		}
+	
+	.menuecontainer{
+		z-index:1;
+		
+	}
+	.menuebar{
+		width:100%;
+		
+	}
+	.menuebar a {
+    display: none;
+    }
+	.slogan{
+		width:100%;
+		padding-top: 0px;
+	}
+	.banner{
+		width:100%;
+		
+	}
+	.Ingenieurbürobanner{
+		width:100%;
+	}
+	#verschieben{
+		margin:unset;
+		width:100%;
+	}
+	.zusammenfassung{
+		display:block;
+		height:auto;
+       padding-top: unset;
+       margin-bottom:unset;		
+	}
+  .ueberschrift{
+	  position:unset;
+	  margin: unset;
+	  font-size:18px;
+  }
+  
+  
+  .blauerHintergrund{
+	  margin:unset;
+	  display:block;
+     height:auto;
+  }
+  
+  .zurstellenanzeige{
+	  margin:unset;
+	  height:100px;
+  }
+  
+  .zurstellenanzeige h5 {
+	  margin:unset;
+	  font-size:12px;
+	  padding: 10px;
+  }
+  .zurstellenanzeige a {
+	 margin:unset;
+	 font-size: 15px;
+	  
+  }
+  .layout{
+	  display:block;
+	  width:100%;
+  }
+  .zusammenfassung h5{
+	  margin:unset;
+	  padding:13px;
+	  position:unset;
+	  font-size:13px;
+  }
+  .zusammenfassung h6 {
+   
+    color: white;
+    font-weight: lighter;
+    font-size: 11px;
+    margin: unset;
+	position:unset;
+	padding: 0 15px 15px 15px;
+}
+  .icons{
+	  position:unset;
+	  width:100%;
+	  padding-bottom: 10px;
+  }
+  .icons img {
+    height: 65px;
+  }
+  .icons a{
+	  display:inline-block;
+	      font-size: 15px;
+
+  }
+  .icons h2 {
+    font-family: sans-serif;
+    font-size: 17px;
+    color: white;
+    margin: unset;
+    margin-top: 5px;
+}
+  .icons h3 {
+	font-size:17px;
+	    margin: unset;
+   }
+  .icons h4 {
+	  margin: unset;
+      padding: 0px;
+	  font-size:17px;
+  }
+  .icons p {
+	   margin: unset;
+       padding: 10px;
+  }
+  .blue {
+	  display:block;
+	  height:auto;
+	  width:100%;
+	  
+  }
+  .blue div{
+	  display:block;
+	  width:100%;
+  }
+  .blue p{
+	  margin:unset;
+	  font-size:12px;
+	  padding: 12px 50px;
+  }
+ .blue>div :nth-child(2) {
+    text-align: center;
+	
+}
+  .footer{
+	  margin:unset;
+  }
+  .grey div {
+    display: block;
+    text-align: center;
+}
+  .grey a{
+	  font-size:12px;
+  }
+  .banner2{
+	display:block;
+    height:auto;	
+	  
+  }
+   .container{   
+     display:block;
+	  padding-top: 10px;
+      margin:unset;
+   }	  
+  .container div  {
+    padding:6px;
+}
+.container div p1{
+	font-size:25px;
+}
+ .container div p2 {
+    font-size: 12px;
+    
+} 
+ .Linie {
+	margin-top:15px;
+    margin-bottom: 10px;
+ }
+ #leistungen {
+	 display: block;
+	 height:auto;
+     margin-top: 15px;
+	 background-position: center;
+ }
+ #leistungen div p1 {
+	 font-size: 20px;
+	 display: block;
+    margin: unset;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.bluebackground div, #modernetechnik div {
+    width: 100%;
+    
+}
+.bluebackground *, #bauweisen * {
+    text-align: center;
+    padding-top: 30px;
+}
+#bauweisen * {
+    text-align: center;
+    padding-bottom: 30px;
+}
+#ansprechpartner div div h5 {
+    margin: 0;
+}
+
+#modernetechnik {
+    margin-top: 0;
+   
+    height: auto;
+}
+
+
+#ansprechpartner > div {
+    width: 93%!important;
+    padding: 10px;
+}
+
+ .blauerbalken1 {
+
+    height: auto;
+    padding-top: 99px;
+}
+ #leistungen p {
+    padding: 10px;
+    margin: unset;
+    font-size:15px;
+ }
+ .kontakt{
+	 display:block;
+	 height:auto;
+ }
+ .kontakt div{
+	 display:block;
+	 width:100%;
+ }
+ .kontakt div h6 {
+    margin: unset;
+    font-size: 25px;
+	padding:6px;
+ }
+ .Linie{
+	 margin:unset;
+ }
+ .kontakt div p {
+    padding: 5px;
+    margin: unset;
+}
+ .Kooperationspartner{
+	 display:block;
+	 margin:unset;
+ }
+ .Kooperationspartner div {
+	 display:block;
+	 width:100%;
+	 
+ } 
+	 .Kooperationspartner h5{
+		 margin: unset;
+    font-size: 14px;
+    letter-spacing: unset;
+	padding:5px;
+	 }
+     .Kooperationspartner p {
+    font-size: 12px;
+    margin: unset;
+    padding: 5px;
+}
+.stellenangebote{
+	margin:unset;
+	height: auto;
+    display: block;
+
+} 
+.stellenangebote div{
+	display: block;
+    width: 100%;
+}
+ .stellenangebote div h5{
+	 font-size:25px;
+	 text-align:center;
+	     padding-top: 5px;
+ }
+ .stellenangebote div p{
+    font-size: 12px;
+    text-align: center;
+    margin: unset;
+    padding: 10px;
+}
+ .stellenangebote1{
+	 display: block;
+    height: auto;
+ }
+ .stellenangebote1 div{
+	 display:block;
+	 width:100%;
+	 margin:unset;
+ }
+ .stellenangebote1 h5{
+	 margin:unset;
+	 padding:5px;
+	 font-size: 20px;
+ }
+ .stellenangebote1 p {
+    font-size: 12px;
+    margin: unset;
+	padding:5px;
+	text-align:left;
+}
+.stellenangebote1 h6{
+	margin:unset;
+	padding:5px;
+	font-size:20px;
+}
+#sachgebiete{
+	display: block;
+    margin: unset;
+	height:auto;
+	text-align:center;
+}
+#sachgebiete p{
+	margin:unset;
+	font-size:16px;
+
+}
+.bluebackground div{
+	display:block;
+	margin:unset;
+}
+ .bluebackground{
+	 margin:unset;
+	 display:block;
+ }
+	
+	.bluebackground div p1{
+		margin:unset;
+		font-size: 30px;
+
+	}
+   .bluebackground div p {
+     margin: unset;
+    font-size: 12px;
+    padding: 10px;
+
+	}
+	#bauweisen {
+    margin: unset;
+    display: block;
+    height: auto;
+}
+#bauweisen div{
+	display: block;
+    width: 100%;
+}
+#bauweisen div p1 {
+      font-size:25px;
+
+	  }
+#bauweisen div p{
+	padding:5px;
+	margin:unset;
+	font-size:15px;
+}
+#ansprechpartner{
+	margin:unset;
+	display:block;
+	
+}
+#ansprechpartner div{
+	width:100%;
+}
+ }
+ 
+ @media (min-width: 769PX){
+	 .menu{
+		 display: none !important;
+	 }
+ }
